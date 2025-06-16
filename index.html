@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lakshmi Priyanka | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Lakshmi Priyanka</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Lakshmi Priyanka</span></h1>
+        <p><span class="typing"></span></p>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/priyaimg.jpeg" alt="Professional Woman" />
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Aspiring IT professional with strong skills in Java and web development. Passionate about data analytics and software development with hands-on experience in real-world projects.
+      </p>
+      <div class="resume-button">
+        <a href="certificates/resume.pdf" download class="btn">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div>Python</div><div>R Programming</div><div>Ui/Ux</div>
+        <div>Java</div><div>HTML</div><div>CSS</div>
+        <div>Jupyter Notebook</div><div>RStudio</div><div>VS Code</div><div>Eclipse</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects" data-aos="fade-up">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="card">
+          <div class="image-box">
+            <img src="images/web.avif" alt="Society Portal">
+          </div>
+          <h3> Professional Society Activities Tracking Portal</h3>
+          <p>Built using HTML, CSS, and SQL Server to help members log and track event participation efficiently.</p>
+          <a href="https://github.com/21bq1a12f0/ACMW-Mini-Project" class="project-link" target="_blank">View on GitHub</a>
+        </div>
+
+        <div class="card">
+          <div class="image-box">
+            <img src="images/lungcancer.jpeg" alt="Lung Cancer Detection">
+          </div>
+          <h3>Lung Cancer Detection (LSTM + MobileNet)</h3>
+          <p>AI-based early detection using deep learning with both image and sequential data.</p>
+          <a href="https://github.com/21bq1a12f0/Major-Project" class="project-link" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Data Analytics Intern – AWS Academy</h3>
+          <span>Dec 2022 – Feb 2023</span>
+          <p>Worked with data visualization tools and learned AWS-based data analytics workflow.</p>
+          <a href="certificates/data analytics.pdf" class="project-link" target="_blank">View Certificate</a>
+
+        </div>
+        <div class="timeline-item">
+          <h3>Web Development Intern – Oasis Infobyte</h3>
+          <span>sep 2023 – Nov 2023</span>
+          <p>Built and styled web applications using HTML and CSS, with focus on responsiveness and usability.</p>
+          <a href="certificates/oasis.pdf" class="project-link" target="_blank">View Certificate</a>
+        </div>
+       
+        <div class="timeline-item"> 
+           <h3>AI & ML Intern – APSSDC & Edunet Foundation</h3>
+           <span>May 2024 – June 2024</span>
+           <p>Completed a 6-week internship on Artificial Intelligence & Machine Learning through IBM SkillsBuild platform, in collaboration with Andhra Pradesh State Skill Development Corporation (APSSDC) and Edunet Foundation. Gained hands-on experience in AI/ML concepts and tools.</p>
+          <a href="certificates/AI and ML.pdf" class="project-link" target="_blank">View Certificate</a>
+       </div>  
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section class="certifications" id="certifications">
+    <div class="container">
+      <h2>Certifications</h2>
+      <ul>
+        <li><a href="certificates\Data Base Management System.pdf" target="_blank">DBMS – NPTEL</a></li>
+        <li><a href="certificates/Cloud Computing.pdf" target="_blank">Cloud Computing – NPTEL</a></li>
+        <li><a href="certificates/google.pdf" target="_blank">Google Associate Cloud Engineer</a></li>
+        <li><a href="certificates/java-wipro.pdf" target="_blank">Java full stack- Wipro</a></li>
+        <li><a href="certificates/salesforce.pdf" target="_blank">Salesforce- smartbridge</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:spchowdary2004@gmail.com">spchowdary2004@gmail.com</a></p>
+        <p><i class="fas fa-phone-alt"></i> <a href="tel:+919494606767">+91 94946 06767</a></p>
+        <p><i class="fab fa-linkedin"></i> <a href="#">LinkedIn</a></p>
+        <p><i class="fab fa-github"></i> <a href="#">GitHub</a></p>
+      </div>
+
+      <div class="contact-form">
+        <h2>Send a Message</h2>
+        <form id="smsForm">
+          <input type="text" name="name" placeholder="Your Name" id="name" required>
+          <input type="email" name="email" placeholder="Your Email" id="email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" id="message" required></textarea>
+          <button type="submit">Send via SMS</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Lakshmi Priyanka. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    new Typed(".typing", {
+      strings: ["Web Developer", "Data Analyst", "Cloud Enthusiast"],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true
+    });
+
+    document.getElementById("smsForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      const name = document.getElementById("name").value;
+      const message = document.getElementById("message").value;
+      const phoneNumber = "+919494606767";
+      const smsBody = encodeURIComponent(`Hi, I am ${name}. ${message}`);
+      window.location.href = `sms:${phoneNumber}?body=${smsBody}`;
+    });
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+  <a href="#contact" class="contact-float">📩 Contact</a>
+</body>
+</html>
